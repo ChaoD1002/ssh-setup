@@ -1,0 +1,12 @@
+# GitHub 账号配置（通过 id_ed25519）
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
+
+# 示例：你的远程 VPS
+# Host my-vps
+#   HostName 192.168.1.123
+#   User chao
+#   IdentityFile ~/.ssh/id_vps
